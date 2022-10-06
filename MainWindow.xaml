@@ -5,36 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_UP4_PR_Pisarev"
         mc:Ignorable="d"
-        Title="Задание№2" Height="100" Width="900">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0.5*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-         
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.2*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.2*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.2*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.2*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.2*"/>
-
-        </Grid.ColumnDefinitions>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="0" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="2" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="4" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="6" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="8" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="10" Background="#FFCE2389"/>
-        <Border BorderBrush="Blue" BorderThickness="1" Grid.Row="0" Grid.Column="12" Background="#FFCE2389"/>
-
-    </Grid>
+        Title="Задание№3" Height="250" Width="450">
+    <Grid Background="Bisque">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet" />
+            <Button Grid.Column="1" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet"/>
+            <Button Grid.Column="2" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet"/>
+        </Grid>
 </Window>
