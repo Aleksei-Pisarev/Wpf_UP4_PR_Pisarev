@@ -5,20 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_UP4_PR_Pisarev"
         mc:Ignorable="d"
-        Title="Задание№3" Height="250" Width="450">
-    <Grid Background="Bisque">
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet" />
-            <Button Grid.Column="1" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet"/>
-            <Button Grid.Column="2" Grid.Row="0" Content="Одна из трёх колонок" Background="Violet"/>
-        </Grid>
+        Title="меню заданий" Height="200" Width="450">
+    <Grid>
+        <Button x:Name="Win1" Content="Задание№1(А)" Click="Win1_Click" Margin="0,0,351,141"/>
+        <Button x:Name="Win2" Content="Задание№1(Б)" Click="Win2_Click" Margin="0,33,351,108"/>
+        
+        
+        <Button x:Name="Win3" Content="Задание№2(А)" Click="Win3_Click" Margin="96,0,255,141"/>
+        <Button x:Name="Win4" Content="Задание№2(Б)" Click="Win4_Click" Margin="96,33,255,108"/>
+        <Button x:Name="Win5" Content="Задание№2(В)" Click="Win5_Click" Margin="96,66,255,75"/>
+        <Button x:Name="Win6" Content="Задание№2(Г)" Click="Win6_Click" Margin="96,99,255,42"/>
+        
+        <Button x:Name="Win7" Content="Задание№3(А)" Click="Win7_Click" Margin="192,0,159,141"/>
+        <Button x:Name="Win8" Content="Задание№3(Б)" Click="Win8_Click" Margin="192,33,159,108"/>
+        <Button x:Name="Win9" Content="Задание№3(В)" Click="Win9_Click" Margin="192,66,159,75"/>
+        <Button x:Name="Win10" Content="Задание№3(Г)" Click="Win10_Click" Margin="192,99,159,42"/>
+
+        <Button x:Name="Win12" Content="Задание№4(А)" Click="Win12_Click" Margin="288,0,63,141"/>
+        <Button x:Name="Win13" Content="Задание№4(Б)" Click="Win13_Click" Margin="288,33,63,108"/>
+        <Button x:Name="Win14" Content="Задание№4(В)" Click="Win14_Click" Margin="288,66,63,75"/>
+        <Button x:Name="Win15" Content="Задание№4(Г)" Click="Win15_Click" Margin="288,99,63,42"/>
+        <Button x:Name="Win16" Content="Задание№4(Д)" Click="Win16_Click" Margin="288,131,63,10"/>
+
+    </Grid>
 </Window>
